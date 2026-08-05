@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LEVIATHAN | $LEVA — El Titán del Océano Cripto</title>
+  <link rel="stylesheet" href="styles.css" />
+  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600&family=Barlow+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-coin">
+        <div class="loader-coin-face">
+          <img src="Image/leva_coin.png" alt="Leviathan Coin Loader" class="loader-coin-img">
+        </div>
+      </div>
+      <div class="loader-title">LEVIATHAN</div>
+      <div class="loader-sub">NO PERSIGAS LAS OLAS. CONQUÍSTALAS.</div>
+      <div class="loader-bar-wrap">
+        <div class="loader-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner container">
+      <div class="nav-brand">
+        <div class="nav-coin-icon">
+          <img src="Image/leva_coin.png" alt="Leviathan Token">
+        </div>
+        <span class="nav-name">LEVIATHAN</span>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">INICIO</a></li>
+        <li><a href="#historia">HISTORIA</a></li>
+        <li><a href="#about">VALORES</a></li>
+        <li><a href="#utilidad">ECOSISTEMA</a></li>
+        <li><a href="#jerarquia">TRIPULACIÓN</a></li>
+        <li><a href="#tokenomics">TOKENOMICS</a></li>
+        <li><a href="#roadmap">ROADMAP</a></li>
+        <li><a href="#community">COMUNIDAD</a></li>
+      </ul>
+      <a href="https://t.me/Leviatantoken" target="_blank" class="btn-nav">🐋 ÚNETE A LA TRIPULACIÓN</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-photo"></div>
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-bg-glow glow-green"></div>
+    <div class="hero-bg-glow glow-gold"></div>
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+
+    <div class="container hero-container">
+
+      <div class="hero-content">
+        <div class="hero-badges">
+          <span class="badge badge-green">🌊 COMUNIDAD IMPULSADA</span>
+          <span class="badge badge-gold">⚓ BLOCKCHAIN SOLANA</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-millox">LEVIATHAN</span>
+          <span class="hero-sub-title">EL TITÁN DEL</span>
+          <span class="hero-cultura">OCÉANO CRIPTO</span>
+        </h1>
+        <p class="hero-tagline">No persigas las olas. <strong>Conquístalas.</strong><br />Un proyecto Web3 impulsado
+          por una comunidad que navega con paciencia, estrategia y convicción.</p>
+        <div class="hero-pills">
+          <span class="pill">⚓ Convicción</span>
+          <span class="pill">🌊 Solana</span>
+          <span class="pill">🐋 Comunidad Primero</span>
+        </div>
+        <div class="hero-cta">
+          <a href="https://t.me/Leviatantoken" target="_blank" class="btn-primary">ÚNETE A LA TRIPULACIÓN</a>
+          <a href="#about" class="btn-ghost">CONOCER MÁS ↓</a>
+        </div>
+        <div class="hero-slogan">LAS LEYENDAS NACEN EN LAS PROFUNDIDADES</div>
+      </div>
+
+      <div class="hero-coin-wrap">
+        <div class="hero-coin-glow"></div>
+        <div class="hero-coin" id="heroCoin">
+          <div class="hero-coin-ring ring-a"></div>
+          <div class="hero-coin-ring ring-b"></div>
+          <div class="hero-coin-face coin-front">
+            <div class="coin-x-symbol">
+              <img src="Image/leva_coin.png" alt="Leviathan LEVA Symbol">
+            </div>
+          </div>
+        </div>
+        <div class="coin-orbits">
+          <div class="orbit-dot od1">⚓</div>
+          <div class="orbit-dot od2">🌊</div>
+          <div class="orbit-dot od3">💎</div>
+          <div class="orbit-dot od4">🐋</div>
+        </div>
+      </div>
+
+    </div> 
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <div class="ticker-inner" id="tickerInner">
+        <span>🐋 LEVIATHAN TOKEN</span><span>⚓ $LEVA</span><span>🌊 BLOCKCHAIN SOLANA</span><span>💎 COMUNIDAD
+          FUERTE</span><span>🔥 CONVICCIÓN</span><span>⚡ TRANSPARENCIA</span><span>#LEVIATHAN</span><span>🌊 NO
+          PERSIGAS LAS OLAS, CONQUÍSTALAS</span>
+        <span>🐋 LEVIATHAN TOKEN</span><span>⚓ $LEVA</span><span>🌊 BLOCKCHAIN SOLANA</span><span>💎 COMUNIDAD
+          FUERTE</span><span>🔥 CONVICCIÓN</span><span>⚡ TRANSPARENCIA</span><span>#LEVIATHAN</span><span>🌊 NO
+          PERSIGAS LAS OLAS, CONQUÍSTALAS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NUESTRA HISTORIA -->
+  <section class="about" id="historia">
+    <div class="container">
+      <div class="section-label">NUESTRA HISTORIA</div>
+      <h2 class="section-title">LEVIATHAN — LA LEYENDA<br /><span class="green">DE LAS PROFUNDIDADES</span></h2>
+
+      <p class="section-desc">Mucho antes de que existieran mapas, los marineros hablaban de una criatura tan
+        inmensa que podía cambiar el destino del océano con un solo movimiento. La llamaban Leviathan.</p>
+      <p class="fd-quote" style="margin-top:8px; font-size:clamp(1.1rem,1.8vw,1.4rem);">No aparecía para cualquiera.</p>
+
+      <p class="section-desc">Permanecía oculta en las profundidades, donde la presión era demasiado grande para los
+        débiles y donde solo sobrevivían quienes tenían paciencia y fortaleza. Su silencio no era una señal de
+        ausencia, sino de poder. Mientras la superficie se agitaba con tormentas, Leviathan esperaba el momento
+        perfecto para emerger.</p>
+      <p class="fd-quote" style="margin-top:8px; font-size:clamp(1.1rem,1.8vw,1.4rem);">El mercado cripto no es
+        diferente.</p>
+
+      <p class="section-desc">En la superficie reinan el miedo, la codicia, el FOMO y el ruido constante. Miles
+        corren detrás de cada vela verde y huyen ante la primera caída. Pero, en las profundidades, donde pocos se
+        atreven a mirar, se mueve el verdadero capital. Allí actúan las grandes ballenas, los inversores pacientes y
+        quienes entienden que el tiempo vale más que la velocidad.</p>
+
+      <p class="fd-highlight" style="font-size:clamp(1.2rem,2vw,1.6rem); margin: 24px 0;">LEVIATHAN ($LEVA) nace
+        inspirado en esa filosofía.</p>
+
+      <p class="section-desc">No representa una promesa de riqueza inmediata. Representa la fuerza de una comunidad
+        que decide navegar unida, aprender en cada ciclo y construir algo que trascienda la especulación.</p>
+
+      <div class="hero-pills" style="justify-content:center; margin: 28px 0;">
+        <span class="pill">⚓ Cada holder es un Titán</span>
+        <span class="pill">🐋 Cada integrante fortalece a la criatura</span>
+        <span class="pill">🌊 Cada desafío nos hace más resistentes</span>
+      </div>
+
+      <p class="section-desc">No buscamos perseguir cada tendencia. Buscamos convertirnos en una presencia
+        imposible de ignorar. Porque las leyendas no nacen de un solo día; se construyen con convicción, disciplina
+        y una comunidad que nunca abandona el barco.</p>
+
+      <p class="section-desc">Cuando LEVIATHAN emerja de las profundidades, no será por casualidad. Será porque
+        miles de Titanes decidieron remar en la misma dirección.</p>
+
+      <p class="fd-highlight" style="margin-top:32px;">LEVIATHAN ($LEVA)</p>
+      <p class="fd-text" style="margin-top:12px;">Las olas siguen a los valientes. Las profundidades pertenecen a
+        los Titanes.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT / VALORES -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-label">VISIÓN Y VALORES</div>
+      <h2 class="section-title">MÁS QUE UN TOKEN,<br /><span class="green">UNA TRIPULACIÓN</span></h2>
+      <p class="section-desc">Leviathan nace para demostrar que el verdadero poder de un proyecto Web3 no depende
+        únicamente del precio de un token, sino de la fuerza de una comunidad unida por una visión compartida. Mientras
+        la mayoría observa la superficie del océano, el verdadero poder permanece oculto bajo ella.</p>
+
+      <div class="values-grid">
+        <div class="value-card reveal">
+          <div class="value-icon">⚓</div>
+          <h3>CONVICCIÓN</h3>
+          <p>Creemos en construir con una visión de largo plazo, incluso cuando el mercado atraviesa momentos de
+            incertidumbre.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-icon">🔍</div>
+          <h3>TRANSPARENCIA</h3>
+          <p>La comunicación abierta y honesta fortalece la confianza entre el proyecto y su comunidad.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-icon">👥</div>
+          <h3>COMUNIDAD</h3>
+          <p>Cada holder, colaborador y seguidor forma parte del crecimiento de Leviathan.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-icon">⏳</div>
+          <h3>PACIENCIA</h3>
+          <p>Las grandes construcciones requieren tiempo. No buscamos resultados inmediatos, sino un legado
+            duradero.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-icon">💡</div>
+          <h3>INNOVACIÓN</h3>
+          <p>Exploramos nuevas ideas y herramientas para seguir evolucionando dentro del ecosistema Web3.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-icon">🤝</div>
+          <h3>RESPETO</h3>
+          <p>Fomentamos un ambiente donde todas las opiniones sean escuchadas y valoradas.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-icon">🛠️</div>
+          <h3>CONSTRUCCIÓN CONSTANTE</h3>
+          <p>Cada acción, por pequeña que parezca, contribuye al crecimiento del proyecto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECOSISTEMA -->
+  <section class="utilidad" id="utilidad">
+    <div class="container">
+      <div class="section-label">EL ECOSISTEMA LEVIATHAN</div>
+      <h2 class="section-title">MÁS QUE UN TOKEN,<br /><span class="gold">UN ECOSISTEMA</span></h2>
+      <p class="section-desc">Leviathan es más que un token. Es un ecosistema impulsado por su comunidad, donde cada
+        elemento representa una parte de la travesía.</p>
+
+      <div class="ecosystem-banner reveal">
+        <img src="Image/leviathan_captain_poster.jpeg" alt="Capitán Levi y Leviathan" loading="lazy">
+      </div>
+
+      <div class="utilidad-grid">
+        <div class="util-card reveal" style="--d:0s">
+          <div class="util-icon-wrap green-glow">
+            <span>🧭</span>
+          </div>
+          <h3>CAPITÁN LEVI</h3>
+          <p>Representa el liderazgo de Leviathan. No simboliza a una persona en particular, sino una filosofía basada
+            en la paciencia, la estrategia y la responsabilidad de guiar a la comunidad en cada etapa del viaje.</p>
+        </div>
+        <div class="util-card reveal" style="--d:0.1s">
+          <div class="util-icon-wrap gold-glow">
+            <span>👥</span>
+          </div>
+          <h3>LA TRIPULACIÓN</h3>
+          <p>Cada holder forma parte de la tripulación. Todos tienen un papel importante en el crecimiento del
+            proyecto mediante su participación, colaboración y compromiso.</p>
+        </div>
+        <div class="util-card reveal" style="--d:0.2s">
+          <div class="util-icon-wrap green-glow">
+            <span>🌊</span>
+          </div>
+          <h3>EL OCÉANO</h3>
+          <p>Representa el mercado cripto. Es cambiante, impredecible y desafiante, pero también está lleno de
+            oportunidades para quienes saben navegar con disciplina.</p>
+        </div>
+        <div class="util-card reveal" style="--d:0.3s">
+          <div class="util-icon-wrap gold-glow">
+            <span>🐋</span>
+          </div>
+          <h3>LEVIATHAN</h3>
+          <p>Representa la fuerza colectiva. No existe un solo protagonista — el verdadero poder surge cuando toda la
+            comunidad avanza unida hacia un mismo objetivo.</p>
+        </div>
+      </div>
+
+      <div class="util-cta-banner reveal">
+        <div class="util-banner-text">
+          <strong>SÉ PARTE DE LA TRIPULACIÓN</strong>
+          <span>#LEVIATHAN — No persigas las olas, conquístalas</span>
+        </div>
+        <a href="https://t.me/Leviatantoken" target="_blank" class="btn-primary">ÚNETE AHORA</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LA TRIPULACIÓN / JERARQUÍA -->
+  <section class="utilidad" id="jerarquia">
+    <div class="container">
+      <div class="section-label">LA COMUNIDAD ES EL CORAZÓN DE LEVIATHAN</div>
+      <h2 class="section-title">CADA ETAPA<br /><span class="gold">DE LA TRAVESÍA</span></h2>
+      <p class="section-desc">Inspirados por la vida marina, cada integrante representa una etapa dentro de esta gran
+        travesía. No importa el tamaño de cada miembro — lo que realmente importa es navegar en la misma
+        dirección.</p>
+
+      <div class="ecosystem-banner reveal">
+        <video src="Image/leviathan_crew_video.mp4" autoplay muted loop playsinline
+          aria-label="La tripulación de Leviathan"></video>
+      </div>
+
+      <div class="utilidad-grid">
+        <div class="util-card reveal" style="--d:0s">
+          <div class="util-icon-wrap green-glow"><span>🦐</span></div>
+          <h3>CAMARÓN</h3>
+          <p>Primeros tripulantes que descubren el proyecto.</p>
+        </div>
+        <div class="util-card reveal" style="--d:0.1s">
+          <div class="util-icon-wrap gold-glow"><span>🐟</span></div>
+          <h3>PEZ</h3>
+          <p>Holders comprometidos con el crecimiento de la comunidad.</p>
+        </div>
+        <div class="util-card reveal" style="--d:0.2s">
+          <div class="util-icon-wrap green-glow"><span>🐬</span></div>
+          <h3>DELFÍN</h3>
+          <p>Colaboradores, creadores de contenido y constructores del ecosistema.</p>
+        </div>
+        <div class="util-card reveal" style="--d:0.3s">
+          <div class="util-icon-wrap gold-glow"><span>🦈</span></div>
+          <h3>TIBURÓN</h3>
+          <p>Grandes holders que apoyan el desarrollo del proyecto con una visión de largo plazo.</p>
+        </div>
+        <div class="util-card reveal" style="--d:0.4s">
+          <div class="util-icon-wrap green-glow"><span>🐋</span></div>
+          <h3>LEVIATHAN</h3>
+          <p>La fuerza colectiva de toda la comunidad unida.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOKENOMICS -->
+  <section class="tokenomics" id="tokenomics">
+    <div class="container">
+      <div class="section-label">TOKEN $LEVA</div>
+      <h2 class="section-title">TOKENOMICS<br /><span class="green">LEVIATHAN</span></h2>
+      <p class="section-desc">El token $LEVA es el punto de entrada al ecosistema Leviathan y representa el compromiso
+        de sus holders con el crecimiento del proyecto. Los datos finales serán publicados oficialmente antes o
+        durante el lanzamiento para garantizar la transparencia con la comunidad.</p>
+
+      <div class="tk-grid">
+        <div class="tk-visual">
+          <div class="tk-rings-wrap">
+            <div class="tk-ring-outer"></div>
+            <div class="tk-ring-mid"></div>
+            <div class="tk-ring-inner"></div>
+            <div class="tk-center">
+              <div class="tk-num">0%</div>
+              <div class="tk-unit">IMPUESTOS</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tk-legend">
+          <div class="tk-item reveal">
+            <div class="tk-dot" style="background:#2E8FFF"></div>
+            <div class="tk-info">
+              <strong>BLOCKCHAIN</strong>
+              <span>Red sobre la que opera el token $LEVA</span>
+            </div>
+            <div class="tk-pct">SOLANA</div>
+          </div>
+          <div class="tk-item reveal">
+            <div class="tk-dot" style="background:#2E8FFF"></div>
+            <div class="tk-info">
+              <strong>OFERTA TOTAL</strong>
+              <span>Se publicará oficialmente antes del lanzamiento</span>
+            </div>
+            <div class="tk-pct">POR DEFINIR</div>
+          </div>
+          <div class="tk-item reveal">
+            <div class="tk-dot" style="background:#2E8FFF"></div>
+            <div class="tk-info">
+              <strong>LIQUIDEZ</strong>
+              <span>Se publicará oficialmente antes del lanzamiento</span>
+            </div>
+            <div class="tk-pct">POR DEFINIR</div>
+          </div>
+          <div class="tk-item reveal">
+            <div class="tk-dot" style="background:#2E8FFF"></div>
+            <div class="tk-info">
+              <strong>DISTRIBUCIÓN</strong>
+              <span>Se publicará oficialmente antes del lanzamiento</span>
+            </div>
+            <div class="tk-pct">POR DEFINIR</div>
+          </div>
+          <div class="tk-item reveal">
+            <div class="tk-dot" style="background:#2E8FFF"></div>
+            <div class="tk-info">
+              <strong>ESTADO DEL CONTRATO</strong>
+              <span>Definido según las características del lanzamiento en Pump.fun</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tk-security-grid">
+        <div class="tk-security-card reveal">
+          <span class="tk-sec-icon">🔍</span>
+          <strong>TRANSPARENCIA TOTAL</strong>
+          <p>La confianza se construye con hechos. Comunicamos de manera abierta cada etapa del proyecto.</p>
+        </div>
+        <div class="tk-security-card reveal">
+          <span class="tk-sec-icon">📢</span>
+          <strong>COMUNICACIÓN CONSTANTE</strong>
+          <p>La comunidad siempre será informada sobre los avances y decisiones relevantes.</p>
+        </div>
+        <div class="tk-security-card reveal">
+          <span class="tk-sec-icon">🤝</span>
+          <strong>PARTICIPACIÓN COMUNITARIA</strong>
+          <p>Los tripulantes podrán expresar sus opiniones mediante encuestas, debates y futuras propuestas.</p>
+        </div>
+        <div class="tk-security-card reveal">
+          <span class="tk-sec-icon">🛠️</span>
+          <strong>DESARROLLO RESPONSABLE</strong>
+          <p>Cada etapa del ecosistema se construye con responsabilidad y visión a futuro.</p>
+        </div>
+        <div class="tk-security-card reveal">
+          <span class="tk-sec-icon">🎯</span>
+          <strong>VISIÓN DE LARGO PLAZO</strong>
+          <p>No buscamos resultados inmediatos, sino un legado sostenible en cualquier ciclo del mercado.</p>
+        </div>
+        <div class="tk-security-card reveal">
+          <span class="tk-sec-icon">💯</span>
+          <strong>0% IMPUESTOS</strong>
+          <p>Sin impuestos de compra o venta sobre el token $LEVA.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BANNER -->
+  <section class="stats-banner">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-val">SOLANA</div>
+          <div class="stat-lbl">BLOCKCHAIN</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-val">PUMP.FUN</div>
+          <div class="stat-lbl">LANZAMIENTO</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-val">0%</div>
+          <div class="stat-lbl">IMPUESTOS</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-val">$LEVA</div>
+          <div class="stat-lbl">TICKER OFICIAL</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section class="roadmap" id="roadmap">
+    <div class="container">
+      <div class="section-label">HOJA DE RUTA</div>
+      <h2 class="section-title">ROADMAP<br /><span class="gold">LEVIATHAN</span></h2>
+
+      <div class="rm-timeline">
+        <div class="rm-phase active reveal">
+          <div class="rm-dot"><span>⚓</span></div>
+          <div class="rm-card">
+            <div class="rm-badge rm-active">🔥 EN CURSO</div>
+            <h3>FASE I — FUNDACIÓN</h3>
+            <ul>
+              <li>Nacimiento de LEVIATHAN</li>
+              <li>Identidad visual y narrativa del proyecto</li>
+              <li>Lanzamiento de las redes sociales oficiales</li>
+              <li>Construcción de la comunidad inicial</li>
+              <li>Lanzamiento en Pump.fun</li>
+              <li>Difusión orgánica dentro del ecosistema Solana</li>
+            </ul>
+          </div>
+        </div>
+        <div class="rm-phase reveal">
+          <div class="rm-dot"><span>🌊</span></div>
+          <div class="rm-card">
+            <div class="rm-badge rm-next">🚀 PRÓXIMO</div>
+            <h3>FASE II — EXPANSIÓN</h3>
+            <ul>
+              <li>Graduación del token</li>
+              <li>Listado en DEX</li>
+              <li>Publicación del sitio web oficial</li>
+              <li>Publicación del Whitepaper Oficial</li>
+              <li>Primeras alianzas estratégicas</li>
+              <li>Crecimiento orgánico de holders y colaboradores</li>
+            </ul>
+          </div>
+        </div>
+        <div class="rm-phase reveal">
+          <div class="rm-dot"><span>🐋</span></div>
+          <div class="rm-card">
+            <div class="rm-badge rm-future">🌟 FUTURO</div>
+            <h3>FASE III — CONSOLIDACIÓN</h3>
+            <ul>
+              <li>Expansión internacional</li>
+              <li>Campañas globales de marketing</li>
+              <li>Colaboraciones con creadores de contenido</li>
+              <li>Fortalecimiento del ecosistema Leviathan</li>
+              <li>Posicionamiento como una de las comunidades más reconocidas de Solana</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTRATO -->
+  <section class="contract-section">
+    <div class="container">
+      <div class="contract-box reveal">
+        <div class="contract-left">
+          <div class="contract-label">📋 CONTRATO OFICIAL</div>
+          <div class="contract-net">Solana · Pump.fun</div>
+        </div>
+        <div class="contract-addr" id="contractAddr">Por definir — se publicará oficialmente en el lanzamiento</div>
+        <a href="https://t.me/Leviatantoken" target="_blank" class="btn-copy">SEGUIR EN TELEGRAM</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY -->
+  <section class="community" id="community">
+    <div class="container">
+      <div class="section-label">ÚNETE</div>
+      <h2 class="section-title">NAVEGAMOS<br /><span class="green">JUNTOS</span></h2>
+      <p class="section-desc">Sé parte de la tripulación. Síguenos, comparte y crece con nosotros. El océano
+        pertenece a quienes se atreven a navegarlo juntos.</p>
+
+      <div class="comm-grid">
+        <a href="https://x.com/leviatantoken" target="_blank" class="comm-card reveal">
+          <div class="comm-icon x-icon">𝕏</div>
+          <div class="comm-info">
+            <strong>TWITTER / X</strong>
+            <span>@leviatantoken</span>
+            <em>Noticias y actualizaciones</em>
+          </div>
+          <span class="comm-arrow">→</span>
+        </a>
+        <a href="https://t.me/Leviatantoken" target="_blank" class="comm-card reveal">
+          <div class="comm-icon tg-icon">✈️</div>
+          <div class="comm-info">
+            <strong>TELEGRAM</strong>
+            <span>t.me/Leviatantoken</span>
+            <em>Chat en tiempo real</em>
+          </div>
+          <span class="comm-arrow">→</span>
+        </a>
+        <a href="https://pump.fun" target="_blank" class="comm-card reveal">
+          <div class="comm-icon dc-icon">🐋</div>
+          <div class="comm-info">
+            <strong>PUMP.FUN</strong>
+            <span>Lanzamiento oficial</span>
+            <em>Blockchain Solana</em>
+          </div>
+          <span class="comm-arrow">→</span>
+        </a>
+        <a href="https://levatoken.org/" class="comm-card reveal">
+          <div class="comm-icon ig-icon">🌐</div>
+          <div class="comm-info">
+            <strong>SITIO WEB</strong>
+            <span>https://levatoken.org/</span>
+            <em>Información oficial</em>
+          </div>
+        </a>
+      </div>
+
+      <div class="together-strip reveal">
+        <span>👥 CONSTRUIMOS JUNTOS</span>
+        <span>🌊 NAVEGAMOS JUNTOS</span>
+        <span>⚓ RESISTIMOS JUNTOS</span>
+        <span>∞ TRASCENDEMOS JUNTOS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUMP.FUN / MERCADO -->
+  <section class="dex-section" id="dexscreener">
+    <div class="container">
+      <div class="section-label">MERCADO</div>
+      <h2 class="section-title">EL VIAJE<br/><span class="green">RECIÉN COMIENZA</span></h2>
+      <p class="section-desc">Leviathan se prepara para zarpar en Pump.fun. El chart en vivo, el contrato oficial y el
+        listado en DEX estarán disponibles apenas el token se gradúe. Sigue nuestros canales oficiales para no perderte
+        el lanzamiento.</p>
+
+      <div class="dex-layout" style="justify-content:center;">
+        <div class="dex-panel" style="flex:1; max-width:640px; margin:0 auto;">
+          <div class="dex-panel-cta reveal">
+            <strong>🚀 PRÓXIMAMENTE EN PUMP.FUN</strong>
+            <span>Sé de los primeros tripulantes en subir a bordo — la comunidad se construye antes que el precio.</span>
+            <div class="dex-cta-buttons">
+              <a href="https://t.me/Leviatantoken" target="_blank" class="btn-primary">TELEGRAM OFICIAL</a>
+              <a href="https://x.com/leviatantoken" target="_blank" class="btn-ghost">TWITTER / X</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="final-declaration">
+    <div class="container">
+      <p class="fd-quote">"Las leyendas no nacen en la superficie.<br />Nacen en las profundidades."</p>
+      <p class="fd-text">Las olas cambian. Los mercados cambian. Las narrativas cambian. Pero las comunidades
+        verdaderamente unidas permanecen. Leviathan no busca convertirse en la tendencia de un día.</p>
+      <p class="fd-text">Mientras otros persiguen las olas… nosotros navegamos las profundidades.</p>
+      <p class="fd-highlight">LEVIATHAN no es solo un token. <span class="gold">Es un legado en construcción.</span></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">LEVIATHAN ⚓🐋</div>
+          <p>El Titán del Océano Cripto. Un proyecto Web3 impulsado por su comunidad sobre la blockchain de
+            Solana.</p>
+          <div class="footer-hashtag">#LEVIATHAN</div>
+        </div>
+        <div class="footer-col">
+          <strong>NAVEGACIÓN</strong>
+          <a href="#home">Inicio</a>
+          <a href="#historia">Historia</a>
+          <a href="#about">Valores</a>
+          <a href="#utilidad">Ecosistema</a>
+          <a href="#jerarquia">Tripulación</a>
+          <a href="#tokenomics">Tokenomics</a>
+          <a href="#roadmap">Roadmap</a>
+        </div>
+        <div class="footer-col">
+          <strong>COMUNIDAD</strong>
+          <a href="https://x.com/leviatantoken" target="_blank">Twitter / X</a>
+          <a href="https://t.me/Leviatantoken" target="_blank">Telegram</a>
+          <a href="https://pump.fun" target="_blank">Pump.fun</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 LEVIATHAN ($LEVA) — TODOS LOS DERECHOS RESERVADOS</p>
+        <p class="disclaimer">⚠️ Leviathan es un proyecto impulsado por su comunidad. La compra o tenencia de $LEVA
+          implica riesgos inherentes al mercado de activos digitales, incluyendo la posibilidad de pérdidas parciales
+          o totales del capital. Este sitio tiene fines exclusivamente informativos y no constituye asesoramiento
+          financiero, legal, contable ni de inversión. DYOR — Haz tu propia investigación antes de invertir.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── LOADER ──
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('loader').classList.add('hidden');
+      }, 2000);
+    });
+
+    // ── NAVBAR SCROLL ──
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ── MOBILE NAV ──
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+    document.querySelectorAll('.nav-links a').forEach(a =>
+      a.addEventListener('click', () => navLinks.classList.remove('open'))
+    );
+
+    // ── HERO CANVAS PARTICLES ──
+    const canvas = document.getElementById('heroCanvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+
+    function resizeCanvas() {
+      canvas.width = canvas.offsetWidth;
+      canvas.height = canvas.offsetHeight;
+    }
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+    function createParticle() {
+      return {
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        r: Math.random() * 2 + 0.5,
+        dx: (Math.random() - 0.5) * 0.4,
+        dy: -Math.random() * 0.8 - 0.2,
+        alpha: Math.random(),
+        color: Math.random() > 0.5 ? '#2DD4BF' : '#A855F7'
+      };
+    }
+
+    for (let i = 0; i < 80; i++) particles.push(createParticle());
+
+    function animateCanvas() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach((p, i) => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = p.color;
+        ctx.globalAlpha = p.alpha;
+        ctx.fill();
+        p.x += p.dx; p.y += p.dy; p.alpha -= 0.003;
+        if (p.alpha <= 0 || p.y < -10) particles[i] = createParticle();
+      });
+      ctx.globalAlpha = 1;
+      requestAnimationFrame(animateCanvas);
+    }
+    animateCanvas();
+
+    // ── SCROLL REVEAL ──
+    const revealObs = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+    // ── COUNTER ANIMATION ──
+    function formatNumber(n) {
+      if (n >= 1000000) return (n / 1000000).toFixed(2).replace(/\.00$/, '') + 'M';
+      if (n >= 1000)    return (n / 1000).toFixed(0) + 'K';
+      return n.toLocaleString();
+    }
+
+    function animateCounter(el) {
+      const target = parseInt(el.dataset.target, 10);
+      const duration = 2000;
+      const start = performance.now();
+      function step(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        // Ease out cubic
+        const ease = 1 - Math.pow(1 - progress, 3);
+        const current = Math.round(ease * target);
+        el.textContent = formatNumber(current);
+        if (progress < 1) requestAnimationFrame(step);
+        else el.textContent = formatNumber(target);
+      }
+      requestAnimationFrame(step);
+    }
+
+    // Disparar contadores cuando el banner entra en viewport
+    const counterObs = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.querySelectorAll('.counter').forEach(animateCounter);
+          counterObs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    const statsBanner = document.querySelector('.stats-banner');
+    if (statsBanner) counterObs.observe(statsBanner);
+
+    // ── COIN TILT ON MOUSE ──
+    const coin = document.getElementById('heroCoin');
+    document.addEventListener('mousemove', (e) => {
+      if (!coin) return;
+      const rect = coin.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+      const dx = (e.clientX - cx) / window.innerWidth;
+      const dy = (e.clientY - cy) / window.innerHeight;
+      coin.style.transform = `rotateY(${dx * 25}deg) rotateX(${-dy * 15}deg)`;
+    });
+  </script>
+</body>
+
+</html>
